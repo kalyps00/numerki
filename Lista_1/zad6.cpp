@@ -3,7 +3,7 @@ using namespace std;
 int main()
 {
     double pi = 0;
-    for (int i = 0; i < 2e6; i++)
+    for (int i = 0; i < 20; i++)
     {
         pi += i % 2 ? -1.0 / (2 * i + 1) : 1.0 / (2 * i + 1);
     }

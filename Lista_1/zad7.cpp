@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    double x = M_PI / 2;
+    double x = M_PI / 3;
     double cos_taylor = 1.0;
     double last = 1.0;
     const int max = 20;
